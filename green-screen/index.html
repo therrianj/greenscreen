@@ -14,32 +14,32 @@
   <!-- Bootstrap core CSS -->
   <link href="css/style1.css" rel="stylesheet">
 
-  
+
 
 </head>
 
 
 <body>
-<h1> GreenScreen Composite</h1>
+<h1 style="color: green;"> GreenScreen Composite</h1>
 </body>
 <canvas id="fgcan"></canvas>
 <canvas id="bgcan"></canvas>
-   
+
       <p>
         <input type="file" value="choose foreground" multiple="false"
-accept="image/*" 
+accept="image/*"
 id="fginput"
                onchange="fgUpload()">Foreground Image</input>
 <input type="file" value="choose foreground" multiple="false"
-accept="image/*" 
+accept="image/*"
 id="bginput"
                onchange="bgUpload()">Background Image</input>
-        
+
 <input type="button" value="Create Composite" onclick="doGreenScreen()">
     </p><p>
 
 <input type="button" value="Clear Canvases" onclick="clearCanvases()">
-    
+
 </p>
 
 
