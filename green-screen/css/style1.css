@@ -1,0 +1,28 @@
+body{
+  background-color:lightgrey;
+}
+h1{
+  font-family: Arial;
+}
+div{
+  width:200px;
+  text-align: right;
+}
+#d1{
+  color:red;
+}
+#d2{
+  color:maroon;
+  
+}
+.yellowback{
+  background-color:yellow;
+}
+.blueback{
+  background-color:lightblue;
+}
+canvas{
+  height:200px;
+  width:400px;
+  border: solid 1px;
+}
